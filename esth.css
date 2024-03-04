@@ -15,7 +15,7 @@ h3{color:white; font-size:1em;  text-align:center, font-family: Tahoma; margin:0
 
 .london { color: white; display:inline-block; width:100%; text-align: left; line-height:1.25em; font-family: Times; padding-left:2em}
 
-.too_much { color: white; display: inline-block; text-align: left; line-height:.95em; letter-spacing: .03em; font-family: Times; padding-left:2em}
+.too_much { color: white; display: inline-block; text-align: left; line-height:.95em; letter-spacing: .03em; font-family: Times; padding-left:2em; white-space:nowrap}
 .dedication { color: white; text-align:centre; line-height:1.2em; font:  small-caps 2px/1.25em Georgia, serif; font-size:0.8em; padding-left:0}
 .dedication_sat { color: white; text-align:centre; line-height:1.2em; font-size:0.8em; padding-right:6em}
 .poem_topless { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:2em; padding-top:0; margin-top:0; white-space:nowrap}
@@ -26,7 +26,7 @@ h3{color:white; font-size:1em;  text-align:center, font-family: Tahoma; margin:0
 p span.sc{font-variant: all-small-caps; font-size:1.1em}
 p span.zhong{font-size:.8em}
 
-.charlotte{display:inline-block; text-align:left; color:white; 
+.charlotte{display:inline-block; text-align:left; color:white; padding:1.5em;
 			transform: scale(-1, 1);
             -moz-transform: scale(-1, 1);
             -webkit-transform: scale(-1, 1);
