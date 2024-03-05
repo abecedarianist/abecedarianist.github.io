@@ -4,7 +4,7 @@ body.poem_body{ background-color: black; padding-top:8%}
 h1{color:white; text-align:center; }
 
 h2{color:white; font-size:1.2em; text-decoration: underline silver .5px; text-align:center, font-family: Tahoma}
-h2 span{font-size: 0.8em}
+h2 span{font-size: 0.8em; text-decoration:none}
 h3{color:white; font-size:1em;  text-align:center, font-family: Tahoma; margin:0; padding:0}
 
 .title{max-width:40%; min-width:max(25em, 20%); margin:auto; display:block}
@@ -17,10 +17,10 @@ h3{color:white; font-size:1em;  text-align:center, font-family: Tahoma; margin:0
 
 .too_much { color: white; display: inline-block; text-align: left; line-height:.95em; letter-spacing: .03em; font-family: Times; padding-left:2em; white-space:nowrap}
 .dedication { color: white; text-align:centre; line-height:1.2em; font:  small-caps 2px/1.25em Georgia, serif; font-size:0.8em; padding-left:0}
-.dedication_sat { color: white; text-align:centre; line-height:1.2em; font-size:0.8em; padding-right:6em}
+.dedication_sat { color: white; text-align:centre; line-height:1.2em; font-size:0.8em; padding-right:1em}
 .poem_topless { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:2em; padding-top:0; margin-top:0; white-space:nowrap}
-.poem_her  { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:52%; margin-top:-6em; white-space:nowrap}
-.poem_right { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:52%; white-space:nowrap }
+.poem_her  { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:53%; margin-top:-6em; white-space:nowrap}
+.poem_right { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:53%; white-space:nowrap }
 .poem_left { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:35%}
 .date { color:grey; font-size:.75em; text-align:center}
 p span.sc{font-variant: all-small-caps; font-size:1.1em}
@@ -56,6 +56,7 @@ ul {padding:0}
 li {padding:0; list-style-type:none; text-align:center; margin:.8em }
 
 a:link{ color: white ; text-decoration:none}
+a:link.saturday{ color: lightsteelblue; text-decoration: none}
 a:visited{ color: grey}
 
 hr{padding:0; width:5%; height: 0px ;color:silver}
