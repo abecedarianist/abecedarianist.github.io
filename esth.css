@@ -6,6 +6,7 @@ h1{color:white; text-align:center; }
 h2{color:white; font-size:1.2em; text-decoration: underline silver .5px; text-align:center, font-family: Tahoma}
 h2 span{font-size: 0.8em; text-decoration:none}
 h3{color:white; font-size:1em;  text-align:center, font-family: Tahoma; margin:0; padding:0}
+h4{color:white; font-size:1.2em; text-decoration-line: underline; text-decoration-color: silver; text-decoration-thickness:.5px; text-align:center, font-family: Tahoma}
 
 .title{max-width:40%; min-width:max(25em, 20%); margin:auto; display:block}
 
@@ -51,6 +52,7 @@ p span.zhong{font-size:.8em}
 }
 
 
+u{text-decoration-thickness:.5px}
 
 ul {padding:0}
 li {padding:0; list-style-type:none; text-align:center; margin:.8em }
