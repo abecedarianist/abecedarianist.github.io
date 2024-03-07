@@ -19,7 +19,7 @@ h4{color:white; font-size:1.2em; text-decoration-line: underline; text-decoratio
 .too_much { color: white; display: inline-block; text-align: left; line-height:.95em; letter-spacing: 0em; font-family: Times; padding-left:2em; white-space:nowrap}
 .dedication { color: white; text-align:centre; line-height:1.2em; font:  small-caps 2px/1.25em Georgia, serif; font-size:0.8em; padding-left:0}
 .dedication_sat { color: white; text-align:centre; line-height:1.2em; font-size:0.8em; padding-right:1em}
-.poem_topless { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:2em; padding-top:0; margin-top:0; white-space:nowrap}
+.poem_topless { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:0em; padding-top:0; margin-top:0; white-space:nowrap}
 .poem_her  { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:53%; font-size:1em; margin-top:-6em; white-space:nowrap; width:fit-content}
 .poem_right { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:53%; font-size:1em; white-space:nowrap; width:fit-content }
 .poem_left { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:35%}
