@@ -68,7 +68,7 @@ li {padding:0; list-style-type:none; text-align:center; margin:.8em }
 
 a:link{ color: white ; text-decoration:none}
 a:link.saturday{ color: lightsteelblue; text-decoration: none}
-a:visited{ color: grey}
+a:visited{ color: white}
 
 hr{padding:0; width:5%; height: 0px ;color:silver}
 
