@@ -12,14 +12,14 @@ h3{color:white; font-size:1em;  text-align:center, font-family: Tahoma; margin:0
 h4{color:white; font-size:1.2em; text-decoration-line: underline; text-decoration-color: silver; text-decoration-thickness:.5px; text-align:center, font-family: Tahoma}
 
 .title{max-width:40%; min-width:max(25em, 20%); margin:auto; display:block}
-
+.ghost{width:1.5em;  margin:auto; display:block}
 .saturday{color:white; font-size:1.2em; text-decoration: underline silver .5px; text-align:center, font-family: Tahoma; padding-right:4.2em}
-.huang { color: white; display: inline-block; text-align: left; line-height:1.35em; letter-spacing: .05rem; font-family: Times; padding-left:0em; white-space:nowrap}
+
 
 .poem { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:0em; white-space:nowrap}
-.london2 { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:0em; white-space:nowrap; border:2px solid brown}
+.huang { color: white; display: inline-block; text-align: left; line-height:1.35em; letter-spacing: .05rem; font-family: Times; padding-left:0em; white-space:nowrap}
 
-.london { color: white; display:inline-block; width:100%; text-align: left; line-height:0.5em; font-family: Times; padding-left:2em}
+.london { color: white; display:inline-block; width:100%; text-align: left; line-height:1.25em; font-family: Times; padding-left:2em}
 
 .too_much { color: white; display: inline-block; text-align: left; line-height:.95em; letter-spacing: 0em; font-family: Times; padding-left:2em; white-space:nowrap}
 .dedication { color: white; text-align:centre; line-height:1.2em; font:  small-caps 2px/1.25em Georgia, serif; font-size:0.8em; padding-left:0}
@@ -27,8 +27,10 @@ h4{color:white; font-size:1.2em; text-decoration-line: underline; text-decoratio
 .poem_topless { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:0em; padding-top:0; margin-top:0; white-space:nowrap}
 .poem_her  { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:53%; font-size:1em; margin-top:-6em; white-space:nowrap; width:fit-content}
 .poem_right { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:53%; font-size:1em; white-space:nowrap; width:fit-content }
-.poem_left { color: white; text-align: left; line-height:1.25em; font-family: Times; margin-left:15%; white-space:nowrap; width:fit-content}
+.poem_left { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:35%}
 .date { color:grey; font-size:.75em; text-align:center}
+.clari { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:0em; margin-top:0em; margin-bottom:0em; white-space:nowrap}
+
 p span.sc{font-variant: small-caps; font-size:1.1em; width:fit-content}
 p span.sc_small{font-variant: small-caps; font-size:.9em; line-height:.9em; width:fit-content}
 p span.zhong{font-size:.8em}
@@ -63,12 +65,14 @@ p span.black{color:black}
 u{text-decoration-thickness:.5px; text-decoration-color: silver}
 
 
-ul {padding:0}
-li {padding:0; list-style-type:none; text-align:center; margin:.8em }
+ul {padding:0; }
+li {padding:0; list-style-type:none; text-align:center; margin:.8em; line-height:1 }
+li.etude{padding:0; list-style-type:none; text-align:center; margin:.8em; line-height:0.8 }
+li.trans {padding:0; list-style-type:none; text-align:center; margin:.8em; line-height:1.1 }
 
 a:link{ color: white ; text-decoration:none}
 a:link.saturday{ color: lightsteelblue; text-decoration: none}
-a:visited{ color: white}
+a:visited{ color: grey}
 
 hr{padding:0; width:5%; height: 0px ;color:silver}
 
