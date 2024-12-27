@@ -1,6 +1,7 @@
 body.index{ background-color: black; padding-top:3%}
 body.poem_body{ background-color: black; padding-top:8%}
 body.multi_body{ background-color: black; padding-top:4%}
+body.babel_body{ background-color: black; padding-top:4%;min-width:30em}
 
 
 h1{color:white; text-align:center; }
@@ -27,15 +28,19 @@ h4{color:white; font-size:1.2em; text-decoration-line: underline; text-decoratio
 .huang { color: white; display: inline-block; text-align: left; line-height:1.35em; letter-spacing: .05rem; font-family: Times; padding-left:0em; white-space:nowrap}
 
 .london { color: white; display:inline-block;  text-align: left; line-height:1.15em; font-family: Times; margin-top:0em}
-.london_right { color: white; text-align: left; line-height:1.1em; font-family: Times; margin-right:30%; font-size:1em; white-space:nowrap; width:fit-content }
+.london_right { color: white; text-align: left; line-height:1.25em; font-family: Times; margin-left:50%; font-size:1em; white-space:nowrap; }
 .london_right_short { color: white; text-align: left; line-height:0.7em; font-family: Times; padding-left:50%; font-size:1em; white-space:nowrap; width:fit-content }
-.london_left { color: white; text-align: left; line-height:1.25em; font-family: Times; margin-left:30%; white-space:nowrap}
+.london_left { color: white; text-align: left; line-height:1.25em; font-family: Times; margin-right:50%; white-space:nowrap}
 .london_left_short { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:30%; margin-bottom:-1.5em}
 
 
 
 .too_much { color: white; display: inline-block; text-align: left; line-height:.95em; letter-spacing: 0em; font-family: Times; padding-left:2em; white-space:nowrap}
 .dedication { color: white; text-align:centre; line-height:1.2em; font:  small-caps 2px/1.25em Georgia, serif; font-size:0.8em; padding-left:0}
+.babel { color: white; text-align:centre; line-height:1.25em; font-family: 'Courier New', monospace; font: small-caps; letter-spacing: .15em;font-size:1em; padding-left:0;white-space:nowrap}
+.babel2 { color: white; text-align:centre; line-height:1.25em; font-family: Times; font: small-caps; letter-spacing: .15em;font-size:1em; padding-left:0}
+
+
 .dedication_sat { color: white; text-align:centre; line-height:1.2em; font-size:0.8em; padding-right:1em}
 .poem_topless { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:0em; padding-top:0; margin-top:0; white-space:nowrap}
 .poem_her  { color: white; text-align: left; line-height:1.25em; font-family: Times; padding-left:53%; font-size:1em; margin-top:-6em; white-space:nowrap; width:fit-content}
@@ -45,11 +50,16 @@ h4{color:white; font-size:1.2em; text-decoration-line: underline; text-decoratio
 .clari { color: white; display: inline-block; text-align: left; line-height:1.25em; font-family: Times; padding-left:0em; margin-top:0em; margin-bottom:0em; white-space:nowrap}
 .first { color: white; display: inline-block; text-align: left; line-height:.5em; font-family: Times; padding-left:0em; white-space:nowrap}
 
+
 .sc{font-variant: small-caps; font-size:1.1em; width:fit-content}
 p span.sc_small{font-variant: small-caps; font-size:.9em; line-height:.9em; width:fit-content}
 p span.zhong{font-size:.8em}
 p span.black{color:black}
+p span.nospace{letter-spacing:0em}
+p span.babel2 { color: white; text-align:centre; line-height:1.25em; font-family: Times; font: small-caps; letter-spacing: .15em;font-size:1em; padding-left:0}
 
+
+.babel_index{ color: white; display:inline-block; text-align:centre; line-height:.5em; font-family: 'Courier New', monospace; font: small-caps; letter-spacing: .1em; font-size:1em; padding-left:0}}
 
 .charlotte{display:inline-block; text-align:left; color:white; padding:1.5em;
 			transform: scale(-1, 1);
@@ -79,7 +89,6 @@ p span.black{color:black}
 u{text-decoration-thickness:.5px; text-decoration-color: silver}
 
 
-ul {padding:0; }
 
 
 li {padding:0; list-style-type:none; text-align:center; margin:.8em; line-height:1 }
